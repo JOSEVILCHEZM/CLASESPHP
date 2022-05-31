@@ -31,6 +31,7 @@ $personas = array(
     ), 
 );
     
-echo "La información de Julian es: Edad: " .$personas["Julian"]["edad"];
+echo "La información de Julian es: Edad: " .$personas
+["Julian"]["edad"] . "Apellido : " . $personas["Julian"]["apellido"];
 
 echo"\n"; 
